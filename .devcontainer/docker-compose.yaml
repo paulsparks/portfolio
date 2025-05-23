@@ -1,0 +1,12 @@
+services:
+  workspace:
+    image: mcr.microsoft.com/devcontainers/javascript-node:22-bookworm
+    container_name: portfolio
+    volumes:
+      - ../:/workspace:rw
+      - ~/.ssh:/home/node/.ssh:ro
+    ports:
+      - 3000:3000
+    env_file:
+      - ../.env
+    tty: true
