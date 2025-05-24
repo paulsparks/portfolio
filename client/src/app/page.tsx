@@ -1,10 +1,17 @@
 export default function Home() {
   return (
-    <div className="pt-20 flex flex-col items-center">
-      <article className="prose lg:prose-xl">
-        <h1 className="">Paul Sparks</h1>
-        <p>blah blah blah</p>
-      </article>
+    <div className="pt-10 flex justify-around w-full">
+      <div className="p-10">
+        <header className="prose prose-xl">
+          <h1>Paul Sparks</h1>
+          <p>Full-Stack Software Engineer</p>
+        </header>
+      </div>
+      <div className="p-10">
+        <header className="prose prose-sm">
+          <h1>Experience</h1>
+        </header>
+      </div>
     </div>
   );
 }
