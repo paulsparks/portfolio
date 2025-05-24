@@ -15,7 +15,8 @@
         "redhat.vscode-yaml",
         "naumovs.color-highlight",
         "christian-kohler.path-intellisense",
-        "eamodio.gitlens"
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode"
       ]
     }
   },
