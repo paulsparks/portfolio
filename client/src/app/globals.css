@@ -1,2 +1,10 @@
-@import "tailwindcss";
-@plugin "daisyui";
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@plugin "daisyui" {
+  themes: luxury --default;
+};
+@plugin "daisyui/theme" {
+  name: "luxury";
+  --color-secondary: red;
+  default: true;
+}
